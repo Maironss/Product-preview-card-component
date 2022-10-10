@@ -1,0 +1,88 @@
+body {
+  font-size: 14px;
+  background-color: hsl(30, 38%, 92%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+}
+h1 {
+  color: hsl(212, 21%, 14%);
+  font-family: "Fraunces", serif;
+  margin: 0;
+}
+p {
+  line-height: 2;
+}
+
+/* Color Style */
+.color {
+  background: hsl(158, 36%, 37%);
+}
+
+/* Card */
+.card {
+  margin-top: 130px;
+  width: 715px;
+}
+.padding {
+  padding: 45px;
+}
+img {
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+/* Button */
+.btn {
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: hsl(158, 36%, 19%);
+  color: hsl(0, 0%, 100%);
+}
+
+.price {
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+.crossed-price {
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 40px;
+  text-decoration: line-through;
+}
+
+.preview {
+  margin-bottom: 0;
+}
+
+/* Attribution */
+.attribution {
+  margin-top: 80px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Media */
+@media (max-width: 992px) {
+  img {
+    content: url(/images/image-product-mobile.jpg);
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  .card {
+    width: 375px;
+  }
+}
