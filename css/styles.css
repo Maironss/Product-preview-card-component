@@ -75,7 +75,7 @@ img {
 }
 
 /* Media */
-@media (max-width: 992px) {
+@media (max-width: 991.5px) {
   img {
     content: url(/image-product-mobile.jpg);
     border-bottom-left-radius: 0;
